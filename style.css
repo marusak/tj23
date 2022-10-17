@@ -36,14 +36,19 @@ body {
     border-bottom: 1px white solid;
 }
 
-#counter {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
+#counter-block {
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    top: -50px;
 }
 
 .clock-square {
@@ -69,7 +74,7 @@ body {
 
 #obrad {
     position: absolute;
-    top: 95%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
