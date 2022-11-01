@@ -21,12 +21,23 @@ body {
 }
 
 .title {
-    font-size: xxx-large;
+    font-size: 3rem;
     color: #e9ede8;
+}
+
+.subtitle {
+    font-size: larger;
+    margin-bottom: 1rem;
+    color: white;
 }
 
 .content {
     color: white;
+    display: flex;
+}
+
+.address {
+    white-space: pre;
 }
 
 .underline {
@@ -68,13 +79,18 @@ body {
 }
 
 .clock-square span:nth-child(2) {
-    font-size: xxx-large;
+    font-size: 3rem;
     color: #939181;
 }
 
 #obrad {
     position: absolute;
-    top: 110%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#kostol {
+    width: 150%;
+    height: 150%;
 }
