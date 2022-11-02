@@ -13,6 +13,12 @@ body {
     width: 100%;
 }
 
+#content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 .card {
     display: flex;
     flex-flow: column;
@@ -83,14 +89,15 @@ body {
     color: #939181;
 }
 
-#obrad {
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.fill {
+    flex-grow: 1;
 }
 
 #kostol {
     width: 150%;
     height: 150%;
+}
+
+#hotel {
+    width: 35%;
 }
