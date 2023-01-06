@@ -1,7 +1,16 @@
+@font-face {
+    font-family: TJFont;
+    src: url(TJFont.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #9cab94;
+}
+
+h1, h2, h3 {
+    font-family: TJFont;
 }
 
 #header {
@@ -45,6 +54,8 @@ body {
 .clock-square span:nth-child(2) {
     font-size: 3rem;
     color: #d5cfdd;
+    font-family: TJFont;
+    margin-top: -6px;
 }
 
 #date {
