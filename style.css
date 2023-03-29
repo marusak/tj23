@@ -188,3 +188,26 @@ h1, h2, h3 {
     left: 0;
     opacity: 0.1;
 }
+
+#dotaznik {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+a.button {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #374936;
+  border-radius: 40px 0 40px 0;
+  background-color: #d5cfdd;
+  color: #374936;
+  padding: 15px 90px;
+  text-transform: uppercase;
+}
+
+a.button:hover {
+    color: white;
+    background-color: #374936;
+}
